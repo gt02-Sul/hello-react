@@ -6,7 +6,7 @@ export const Text = (props) => {
 
     return (
         <p className="text-root">
-            Meu primeiro componente!
+            {props.content}
         </p>
     )
 }

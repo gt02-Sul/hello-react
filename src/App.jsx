@@ -1,18 +1,23 @@
 import './App.css'
 import { Title } from './components/Title/Title'
-import { Text } from './components/Text/Text'
+import { Card } from './components/Card/Card';
 
 export const App = () => {
   return (
     <>
-      <Title />
-      <Text
-        content="Olá props!"
-        content2="Olá props2!"
-      />
-      {/* <Text />
-      <Text />
-      <Text /> */}
+      <Title tag="h1" content="Card List" />
+      <Title tag="h2" content="There's a card list" />
+      <div className="card-list">
+        {/* <Card />
+        <Card />
+        <Card />
+        <Card />
+        <Card />
+        <Card />
+        <Card />
+        <Card /> */}
+      </div>
+      
     </>
   );
 }
