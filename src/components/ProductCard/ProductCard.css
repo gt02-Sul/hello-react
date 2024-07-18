@@ -1,0 +1,12 @@
+.ProductCard-root {
+    border: 1px solid;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 20px;
+}
+
+.ProductCard-root .amount-wrapper {
+    display: flex;
+    width: 200px;
+}
