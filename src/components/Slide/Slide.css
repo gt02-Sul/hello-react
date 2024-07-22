@@ -1,0 +1,39 @@
+.slide--root {
+    position: relative;
+    display: flex;
+    flex: wrap;
+    overflow: hidden;
+}
+
+.slide-position-controller {
+    width: 0;
+    transition: .3s;
+}
+
+.slide-item--root {
+    min-width: 100%;
+    height: 300px;
+    border: 4px solid red;
+    box-sizing: border-box;
+    background-color: #c7c7c7;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 40px;
+}
+
+button {
+    transition: .3s;
+}
+
+li:nth-child(1) button.active {
+    background-color: rgb(227, 42, 73);
+}
+
+li:nth-child(2) button.active {
+    background-color: rgb(54, 227, 42);
+}
+
+li:nth-child(3) button.active {
+    background-color: rgb(70, 42, 227);
+}

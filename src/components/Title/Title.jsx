@@ -1,5 +1,4 @@
 export const Title = (props) => {
-    console.log(props)
     switch(props.tag) {
         case 'h1':
             return <h1>{props.content}</h1>
